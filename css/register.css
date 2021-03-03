@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{src:url('../font/SFProDisplay-Bold.ttf'); font-family: sf-b}
+@font-face{src:url('../font/SFProDisplay-Medium.ttf'); font-family: sf-m}
+@font-face{src:url('../font/SFProDisplay-Heavy.ttf'); font-family: sf-h}
+@font-face{src:url('../font/SFProDisplay-Regular.ttf'); font-family: sf-r}
+@font-face{src:url('../font/SFProDisplay-SemiBold.ttf'); font-family: sf-s}
+.d-flex{display: flex;}
+.fd-row{flex-direction: row;}
+.fd-col{flex-direction: column;}
+.f-col{flex-flow: column wrap;}
+.f-row{flex-flow: row wrap}
+.j-btw{justify-content: space-between;}
+.j-ard{justify-content: space-around;}
+.j-ctr{justify-content: center;}
+.j-end{justify-content: flex-end;}
+.i-ctr{align-items: center;}
+.i-str{align-items: flex-start;}
+.i-end{align-items: flex-end;}
+
+body{
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+.wrapper{
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.container-left, .container-right{
+	width: 100%;
+	height: 100vh;
+}
+.container-left img{
+	width: 100%;
+}
+.container-input{
+	width: 100%;
+	height: auto;
+}
+.container-right img{
+	width: 100%;
+}
+.container-right h3{
+	font-size: 15px;
+	font-family: sf-b;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.form-panjang{
+	width: 100%;
+}
+.form-panjang input{
+	width: 90%;
+	height: 10px;
+	border:none;
+	border: 2px solid #84C1FE;
+	border-radius: 3px;
+	padding: 15px 15px;
+	outline: none;
+	font-family: sf-m;
+	font-weight: 500;
+	letter-spacing: .5px;
+}
+.form-pendek{
+	width: 50%;
+}
+.form-pendek input{
+	width: 80%;
+	height: 10px;
+	border:none;
+	border: 2px solid #84C1FE;
+	border-radius: 3px;
+	padding: 15px 15px;
+	outline: none;
+	font-family: sf-m;
+	font-weight: 500;
+	letter-spacing: .5px;
+}
+button{
+	margin-right: 30px;
+	margin-top: 20px;
+	padding: 8px 15px;
+	background-color: #84C1FE;
+	border: none;
+	color: #FFF;
+	font-family: sf-b;
+	border-radius: 3px;
+	cursor: pointer;
+}
